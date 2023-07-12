@@ -1,0 +1,22 @@
+.form-check-input[type=radio]{
+  border: 1px solid black;
+}
+.form-check{
+  margin-right: 10px;
+}
+.btn-close{
+  display: none;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.bg{
+  background-color: rgb(3, 3, 62);
+  color: white;
+}
+.li{
+  color: white;
+}
+
