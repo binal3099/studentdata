@@ -5,6 +5,7 @@ import EditEmp from './Components/EditEmploye/EditEmp'
 import Home from './Components/Home/Home'
 import { Route, Routes } from 'react-router'
 import Header from './Components/Header/Header'
+import View from './Components/View/View'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/addstudent' element={<StudentData />}></Route>
         <Route path='/viewstudent' element={<ViewData />}></Route>
         <Route path='/edit' element={<EditEmp />}></Route>
+        <Route path='/view' element={<View />}></Route>
       </Routes>
     </>
   )
