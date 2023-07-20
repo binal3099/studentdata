@@ -48,7 +48,11 @@ function StudentData() {
 
         let gdata = getData();
 
-        let uid = gdata.length + 1;
+        let uid = gdata.length > 0 ? 
+                    gdata[gdata.length -1].id + 1 
+                : 101;
+
+        console.log(uid,"uidd");
 
         let ndata = ({ ...inputList, id: uid });
 
