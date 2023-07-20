@@ -47,10 +47,11 @@ function StudentData() {
         e.preventDefault();
 
         let gdata = getData();
+        let uid = Math.floor(Math.random()*100);
 
-        let uid = gdata.length > 0 ? 
-                    gdata[gdata.length -1].id + 1 
-                : 101;
+        // let uid = gdata.length > 0 ? 
+        //             gdata[gdata.length -1].id + 1 
+        //         : 101;
 
         console.log(uid,"uidd");
 
